@@ -11,11 +11,11 @@ public:
 	bool measure();
 
 	static float calculate_temperature(int32_t temperature);
-	/// @brief Calculates pressure in hPa from raw data
+	/// @brief Calculates pressure in Pa from raw data
 	static float calculate_pressure(uint32_t pressure);
 
 	float calculate_current_temperature();
-	/// @brief Calculates pressure in hPa from raw data
+	/// @brief Calculates pressure in Pa from raw data
 	float calculate_current_pressure();
 
 	int32_t temperature;
